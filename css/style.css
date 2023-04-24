@@ -139,8 +139,16 @@ gap: 40px;
 .first-sections {
 background-color: var(--grey);
 padding: 188px 0;
-
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bacground/people-office\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+max-width: 1440px;
+margin: 0 auto;
 }
+
+
+
 .first-title {
 font-weight: 700;
 font-size: 56px;
@@ -335,6 +343,8 @@ background-color: var(--ocean);
 color: var(--white);
 border: 1px solid transparent;
 cursor: pointer;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 
@@ -357,6 +367,7 @@ margin-bottom: 72px;
 
 
 /* Links sections */
+
 .description {
 font-weight: 500;
 font-size: 20px;
@@ -375,11 +386,14 @@ color: var(--slate);
 }
 
 .prtf-card-item {
-border: 1px solid #e7e9fc;
-width: 360px;
-border-top: none; 
+width: 360px; 
 }
 
+.prtf-card-content:hover, .prtf-card-content:focus{
+box-sizing: border-box;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-color: #F4F4FD;
+}
 
 /* Flex card content */
 .prtf-card-content{
