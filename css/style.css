@@ -288,6 +288,7 @@ text-align: center;
 
 .photo-text{
 text-align: center;
+margin-bottom: 8px;
 }
 
 .descr-photo{
@@ -296,8 +297,18 @@ padding: 32px 16px;
 
 .social-list{
 display: flex;
-
+justify-content: space-between;
 }
+.social-items{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+background-color: var(--iris);
+border-radius: 50%;
+}
+
 
 .team-list {
 background-color: var(--white);
