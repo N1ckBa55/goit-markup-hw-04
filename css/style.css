@@ -368,14 +368,12 @@ max-width: 168px;
 }
 
 .customer-item{
-
 }
 
 .customer-link{
-
 }
 
-.customer-link:hover, .customer-link:focus {color: var(--ocean);
+.customer-link:hover, .customer-item-list:hover, .customer-item-list:focus, .customer-link:focus {fill: var(--ocean); border: 1px solid var(--ocean);
 }
 
 
