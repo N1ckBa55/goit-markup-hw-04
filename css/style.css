@@ -54,7 +54,9 @@ padding: 120px 0;
 
 /* Header */
 .header{
-border-bottom: 1px solid #e7e9fc;
+border-bottom: 1px solid var(--cornflower);
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 
@@ -138,7 +140,7 @@ gap: 40px;
 .first-sections {
 background-color: var(--grey);
 padding: 188px 0;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bacground/people-office\ 1.png);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background/people-office1.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -202,13 +204,19 @@ background-color: var(--ocean);
 .title-list {
 width: 264px;
 }
-.strategy-icons{
+.strategy-icons-container{
+display: flex;
+align-items: center;
+justify-content: center;
 width: 264px;
 height: 112px;
 background: var(--cloud);
 border-radius: 4px;
-padding: 24px 100px;
+/* padding: 24px 100px; */
 margin-bottom: 8px;
+}
+
+.strategy-icons{
 }
 
 .cards-title {
