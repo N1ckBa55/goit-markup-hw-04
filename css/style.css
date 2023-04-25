@@ -308,7 +308,7 @@ margin-bottom: 8px;
 }
 
 .descr-photo{
-padding: 32px 16px;
+padding: 32px 0px;
 }
 
 .team-list {
@@ -335,6 +335,7 @@ gap: 24px;
 display: flex;
 flex-direction: row;
 align-items: center;
+justify-content: center;
 gap: 24px;
 }
 .social-items-list{
@@ -350,6 +351,10 @@ background-color: var(--iris);
 border-radius: 50%;
 }
 
+.icon{
+fill: var(--cloud);
+}
+
 .social-items:hover, .social-items:focus{background-color: var(--ocean);}
 
 /* Section 4 */
@@ -357,7 +362,7 @@ border-radius: 50%;
 .customers-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11;
+line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -370,20 +375,30 @@ display: flex;
 gap: 24px;
 }
 
-.customer-item-list {
-padding: 16px 32px;
-border: 1px solid var(--light-slate);
-border-radius: 4px;
-max-width: 168px;
+
+.client-list{
+height: 88px;
+width: calc((100% - 120px) / 6);
 }
 
 .customer-item{
 }
 
 .customer-link{
+/* padding: 16px 32px; */
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid var(--light-slate);
+border-radius: 4px;
+color: var(--light-slate);
+fill: var(--light-slate);
+/* max-width: 168px; */
 }
 
-.customer-link:hover, .customer-item-list:hover, .customer-item-list:focus, .customer-link:focus {fill: var(--ocean); border: 1px solid var(--ocean);
+.customer-link:hover, .customer-link:focus {fill: var(--ocean); border: 1px solid var(--ocean); color: var(--ocean);
 }
 
 
@@ -516,6 +531,7 @@ color: var(--cloud);
 .flex-footer{
 display: flex;
 flex-direction: row;
+align-items: baseline;
 }
 .footer-logo{
 margin-right: 120px;
