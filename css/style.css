@@ -400,7 +400,7 @@ fill: var(--light-slate);
 /* max-width: 168px; */
 }
 
-.customer-link:hover, .customer-link:focus {fill: var(--ocean); border: 1px solid var(--ocean); color: var(--ocean);
+.customer-link:hover, .customer-link:focus {fill: var(--ocean); border-color: var(--ocean); color: var(--ocean);
 }
 
 
